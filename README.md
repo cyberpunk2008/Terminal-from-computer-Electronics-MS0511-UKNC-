@@ -41,6 +41,7 @@
 
 ## Практическая часть
 Подключение к удаленному компьютеру по nullmodem; серверная часть — MS-DOS 7.10 и Synchronet 2.30, клиент — УК-НЦ.
+
 ![](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/docs/synchronet.png)
 
 ## Подключение к компьютеру с операционной системой Linux.

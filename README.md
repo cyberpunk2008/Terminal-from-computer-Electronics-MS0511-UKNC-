@@ -51,4 +51,17 @@
 Далее микроконтроллер подключен к преобразователю UART-USB, который уже подключен к компьютеру с Linux.
 
 Настройка операционной системы Linux для того, чтобы получить доступ к консоли: я создал службу serial-getty@ttyACM0.service. Данная служба запускает agetty на порту ttyACM0 со скоростью 9600 бод в режиме эмуляции VT-200.
+```
+[Unit]
+Description=Serial Getty on %I
+After=systemd-user-sessions.service
+
+[Service]
+ExecStart=-/sbin/agetty -o'-p \\u' --keep-baud 9600 %I vt200
+Type=idle
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
 ![](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/docs/UKNC%20to%20Linux.png)

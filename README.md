@@ -71,7 +71,7 @@ WantedBy=multi-user.target
 Для запуска терминала на порту tty0 (COM1) нужно раскомментировать или добавить строку 
 
 ```
-S0:3:respawn:/sbin/agetty ttyS0 9600 vt200 в файл /etc/inittab.
+S0:3:respawn:/sbin/agetty ttyS0 9600 vt200
 ```
 в файл 
 ```

@@ -68,6 +68,8 @@ WantedBy=multi-user.target
 ```
 ![](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/docs/UKNC%20to%20Linux.png)
 
+![](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/docs/Antix.jpg)
+
 ## Итоги 
 В процессе работы я изучил как программные, так и аппаратные аспекты терминалов. Настроил удалённый доступ в Linux-системе с использованием systemd и программы agetty.
 

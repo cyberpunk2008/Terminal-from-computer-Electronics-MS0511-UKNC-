@@ -67,7 +67,16 @@ Restart=always
 WantedBy=multi-user.target
 ```
 ![](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/docs/UKNC%20to%20Linux.png)
+## Запуск терминала на последовательном порту в Antix-Linux 
+Для запуска терминала на порту tty0 (COM1) нужно раскомментировать или добавить строку типа 
 
+```
+S0:3:respawn:/sbin/agetty ttyS0 9600 vt200 в файл /etc/inittab.
+```
+в файл 
+```
+/etc/inittab
+```
 ![](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/docs/Antix.jpg)
 
 ## Итоги 

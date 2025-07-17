@@ -122,7 +122,7 @@ S0:3:respawn:/sbin/agetty ttyS0 9600 vt200
 ![](https://uknc.narod.ru/FAQ/imgp5062.jpg)
 ## Схема Null-Modem RS-232 (DB-9)
 ![](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/docs/Null-Modem.png)
-
+![](https://ipc2u.com/upload/medialibrary/d11/x9hkyrazyr0gazbncqatf13c4gs5y0wxi.jpg.pagespeed.ic.QEM8IkLIFI.webp)
 
 ## Итоги 
 В процессе работы я изучил как программные, так и аппаратные аспекты терминалов. Настроил удалённый доступ в Linux-системе с использованием systemd и программы agetty.

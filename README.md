@@ -118,6 +118,8 @@ S0:3:respawn:/sbin/agetty ttyS0 9600 vt200
 |7   |DSD|
 |9   |DSR|
 |3   |+5V|
+## Схема Null-Modem RS-232
+![](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/docs/Null-Modem.png)
 
 
 ## Итоги 

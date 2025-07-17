@@ -108,6 +108,18 @@ S0:3:respawn:/sbin/agetty ttyS0 9600 vt200
 ```
 ![](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/docs/Antix.jpg)
 
+## Распиновка Стык-2
+|Номер|Назанчение|
+|----|:-:|
+|1,10|GND|
+|2   |DTR|
+|4,5 |TXD|
+|6   |RXD|
+|7   |DSD|
+|9   |DSR|
+|3   |+5V|
+
+
 ## Итоги 
 В процессе работы я изучил как программные, так и аппаратные аспекты терминалов. Настроил удалённый доступ в Linux-системе с использованием systemd и программы agetty.
 

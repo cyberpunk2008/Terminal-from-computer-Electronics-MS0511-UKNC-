@@ -1,0 +1,11 @@
+[Unit]
+Description=Serial Getty on %I
+After=systemd-user-sessions.service
+
+[Service]
+ExecStart=-/sbin/agetty -o'-p \\u' --keep-baud 9600 %I vt200
+Type=idle
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -79,7 +79,7 @@ void loop() {
 }
 
 ```
-![USB to UART](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/USB%20to%20UART.ino)
+[USB to UART](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/USB%20to%20UART.ino)
 
 Настройка операционной системы Linux для того, чтобы получить доступ к консоли: я создал службу serial-getty@ttyACM0.service. Данная служба запускает agetty на порту ttyACM0 со скоростью 9600 бод в режиме эмуляции VT-200.
 ```

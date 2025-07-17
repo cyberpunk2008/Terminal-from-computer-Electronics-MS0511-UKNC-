@@ -105,7 +105,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 ![](https://github.com/cyberpunk2008/Terminal-from-computer-Electronics-MS0511-UKNC-/blob/main/docs/UKNC%20to%20Linux.png)
-## Запуск терминала на последовательном порту в Antix-Linux 
+## Запуск терминала на последовательном порту в Antix-Linux и подключение с использованием Null-Modem
 Для запуска терминала на порту tty0 (COM1) нужно раскомментировать или добавить строку 
 
 ```
